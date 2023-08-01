@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project</title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 100vh;
+      }
+      .container{
+      display: grid;
+      width: 748px;
+      height: 748px;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+      border-bottom: solid transparent 0px;
+    }
+    .red{
+      background-color: #E72F24;
+    }
+    .blue{
+      background-color: #004592;
+      grid-column-start:4;
+      grid-column-end:5;
+      grid-row-start: -4;
+      grid-row-end: -3;
+      border-bottom: solid 10px #000;
+    }
+    .yellow{
+      background-color: #F9D01E;
+      grid-column-start:2;
+      grid-column-end:3;
+      grid-row-start: -2;
+      grid-row-end: -1;
+    }
+    .black{
+      background-color: #232629;
+      grid-column-start:3;
+      grid-column-end:4;
+      grid-row-start: -2;
+      grid-row-end: -1;
+    }
+    .smart1{
+      background-color: antiquewhite;
+      grid-column-start: 2;
+      grid-column-end:5;
+      grid-row-start: 1;
+      grid-row-end:2;
+    }
+    .smart2{
+      background-color: antiquewhite;
+      grid-column-start: 1;
+      grid-column-end:2;
+      grid-row-start: -4;
+      grid-row-end:-2;
+    }
+    .smart3{
+      background-color: antiquewhite;
+      grid-column-start: 2;
+      grid-column-end:4;
+      grid-row-start: -4;
+      grid-row-end:-2;
+    }
+    .smart4{
+      background-color: antiquewhite;
+      grid-column-start: 1;
+      grid-column-end:2;
+      grid-row-start: -2;
+      grid-row-end:-1;
+    }
+    .smart5{
+      background-color: antiquewhite;
+      grid-column-start: 4;
+      grid-column-end:5;
+      grid-row-start: -3;
+      grid-row-end:-1;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="red"></div>
+      <div class="yellow"></div>
+      <div class="blue"></div>
+      <div class="black"></div>
+      <div class="smart1"></div>
+      <div class="smart2"></div>
+      <div class="smart3"></div>
+      <div class="smart4"></div>
+      <div class="smart5"></div>
+    </div>
+  </body>
+</html>
